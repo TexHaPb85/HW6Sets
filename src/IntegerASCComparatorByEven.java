@@ -7,8 +7,6 @@ public class IntegerASCComparatorByEven implements Comparator<Integer>{
             return o1 - o2;
         } else if (o1 % 2 == 0) {
             return -1;
-        } else if(o2 % 2 ==0){
-            return 1;
-        }else return 0;
+        } else return 1;
     }
 }
