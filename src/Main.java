@@ -2,10 +2,8 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Main {
-
-    private static Set<Integer> numbers = new TreeSet<>(new IntegerASCComparatorByEven());
-
-    static {
+    public static void main(String[] args) {
+        Set<Integer> numbers = new TreeSet<>(new IntegerAscComparatorByEven());
         numbers.add(2);
         System.out.println(numbers);
         numbers.add(1);
@@ -29,6 +27,4 @@ public class Main {
         numbers.add(6);
         System.out.println(numbers);
     }
-
-    public static void main(String[] args) {}
 }

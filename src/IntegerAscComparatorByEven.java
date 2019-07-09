@@ -1,6 +1,6 @@
 import java.util.Comparator;
 
-public class IntegerASCComparatorByEven implements Comparator<Integer>{
+public class IntegerAscComparatorByEven implements Comparator<Integer>{
     @Override
     public int compare(Integer o1, Integer o2) {
         if (Math.abs(o1 % 2) == Math.abs(o2 % 2)) {
